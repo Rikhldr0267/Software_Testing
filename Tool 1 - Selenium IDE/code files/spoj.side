@@ -1,0 +1,257 @@
+{
+  "id": "6224c0e8-6851-4c39-a4c2-4978d260cfb5",
+  "version": "2.0",
+  "name": "spoj",
+  "url": "https://www.spoj.com",
+  "tests": [{
+    "id": "d4baee17-132f-4b4c-9380-a0066c332324",
+    "name": "spoj",
+    "commands": [{
+      "id": "c0c2eee5-2f88-47b2-b86e-69792e61a3b0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75cb40c6-5528-46cf-9b80-668f97f95327",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3642338-0b6c-420d-86f4-ffff2133eb6a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=\"Hide public problem tags\" doesn't work properly",
+      "targets": [
+        ["linkText=\"Hide public problem tags\" doesn't work properly", "linkText"],
+        ["css=tr:nth-child(2) > td:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/table/tbody/tr[2]/td/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://discuss.spoj.com/t/hide-public-problem-tags-doesnt-work-properly/17941']", "xpath:href"],
+        ["xpath=//tr[2]/td/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "516c30a5-83d7-4ff8-b459-12e1130d78a0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=TLE with Java code",
+      "targets": [
+        ["linkText=TLE with Java code", "linkText"],
+        ["css=tr:nth-child(1) > td:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TLE with Java code')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://discuss.spoj.com/t/tle-with-java-code/48576']", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TLE with Java code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eea0837-554a-489a-8ce4-e0fb2ca19680",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=TLE with Java code",
+      "targets": [
+        ["linkText=TLE with Java code", "linkText"],
+        ["css=tr:nth-child(1) > td:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TLE with Java code')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://discuss.spoj.com/t/tle-with-java-code/48576']", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TLE with Java code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89e6b088-a870-4899-a96c-314b5f6b081b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PROBLEMS",
+      "targets": [
+        ["linkText=PROBLEMS", "linkText"],
+        ["css=.nav > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PROBLEMS')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/div/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/problems')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' PROBLEMS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9092bc21-0619-445e-8c75-b8134575189e",
+      "comment": "",
+      "command": "click",
+      "target": "id=problems-tags-search",
+      "targets": [
+        ["id=problems-tags-search", "id"],
+        ["css=#problems-tags-search", "css:finder"],
+        ["xpath=//input[@id='problems-tags-search']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/div[3]/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d669a217-20df-4f56-99f3-c98f2adf00c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=problems-tags-search",
+      "targets": [
+        ["id=problems-tags-search", "id"],
+        ["css=#problems-tags-search", "css:finder"],
+        ["xpath=//input[@id='problems-tags-search']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/div[3]/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "array"
+    }, {
+      "id": "32f232bb-e684-4064-b37c-15486bbeee67",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=#array (6)",
+      "targets": [
+        ["linkText=#array (6)", "linkText"],
+        ["css=.tag--:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'#array (6)')]", "xpath:link"],
+        ["xpath=//div[@id='problems-tags']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/problems/tag/array')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'#array (6)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f5ae6e7-955d-4846-b094-040dfa00d61c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Count the Pairs",
+      "targets": [
+        ["linkText=Count the Pairs", "linkText"],
+        ["css=tr:nth-child(4) > td:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Count the Pairs')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div/table/tbody/tr[4]/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/problems/PAIRS1')]", "xpath:href"],
+        ["xpath=//tr[4]/td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Count the Pairs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a65ef568-299d-4cd2-b611-ff6d00023525",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=STATUS",
+      "targets": [
+        ["linkText=STATUS", "linkText"],
+        ["css=.nav > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'STATUS')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/status')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' STATUS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aef48c9b-0d05-49ba-a322-7e7db4e2f523",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=4",
+      "targets": [
+        ["linkText=4", "linkText"],
+        ["css=li:nth-child(6) > .pager_link", "css:finder"],
+        ["xpath=//a[contains(text(),'4')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[7]/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/status/start=60')]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97e483db-f3f2-44a4-959c-52ae1444bc3e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73102a8b-b2a3-424e-840a-2e8b3caf5e24",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59507eb7-9279-468a-95f1-5e3574cd4588",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=li:nth-child(4) > .pager_link", "css:finder"],
+        ["xpath=//a[contains(text(),'2')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[7]/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/status/start=20')]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4087697e-c5ea-4431-9f8c-b34b29130499",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ebf976f-a2c6-4f4e-a574-80c2531b9114",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=RANKS",
+      "targets": [
+        ["linkText=RANKS", "linkText"],
+        ["css=.nav > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'RANKS')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/div/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ranks')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' RANKS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86a2f190-6e61-430f-8611-7e468ad77bd5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CONTESTS",
+      "targets": [
+        ["linkText=CONTESTS", "linkText"],
+        ["css=.nav > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CONTESTS')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contests')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CONTESTS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0a51f85-8d78-4965-b1b8-61a6f62dc022",
+      "comment": "",
+      "command": "click",
+      "target": "css=.table:nth-child(3) tr:nth-child(1) > td:nth-child(2)",
+      "targets": [
+        ["css=.table:nth-child(3) tr:nth-child(1) > td:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/table/tbody/tr/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'University of Liverpool 22 11 23')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4c352c50-087c-4f90-8e14-631744edef8c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d4baee17-132f-4b4c-9380-a0066c332324"]
+  }],
+  "urls": ["https://www.spoj.com/"],
+  "plugins": []
+}

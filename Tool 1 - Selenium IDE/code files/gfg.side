@@ -1,0 +1,373 @@
+{
+  "id": "de79ba0e-d5c8-4e7f-a9eb-21552b295fdc",
+  "version": "2.0",
+  "name": "gfg",
+  "url": "https://www.geeksforgeeks.org",
+  "tests": [{
+    "id": "b664d94a-ce31-4f07-a1a8-f1af15a3e809",
+    "name": "gfg",
+    "commands": [{
+      "id": "4062d1a1-e946-4e11-8019-2f2ed21e1c89",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b1341b7-e20d-4d6b-afd5-2076c2125dca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2064x1127",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1defd361-9ed5-4e49-b8e1-20f2910e3965",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=DSA for Beginners",
+      "targets": [
+        ["linkText=DSA for Beginners", "linkText"],
+        ["css=.selected > .mega-dropdown > .mega-dropdown__list-item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'DSA for Beginners')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/complete-guide-to-dsa-for-beginners/?ref=ghm')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'DSA for Beginners')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b138be0a-6372-48c0-8f11-9fc142f94448",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=DSA for Beginners",
+      "targets": [
+        ["linkText=DSA for Beginners", "linkText"],
+        ["css=.selected > a", "css:finder"],
+        ["xpath=//a[contains(text(),'DSA for Beginners')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/complete-guide-to-dsa-for-beginners/?ref=ghm')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'DSA for Beginners')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34118af8-a6a4-422d-9cc1-dc484ac252eb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Data Structures",
+      "targets": [
+        ["linkText=Data Structures", "linkText"],
+        ["css=#hslider > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Data Structures')])[4]", "xpath:link"],
+        ["xpath=//ul[@id='hslider']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/data-structures/?ref=shm')]", "xpath:href"],
+        ["xpath=//body/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4aa7436-0ec6-4124-af13-1647852f7ce4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.active",
+      "targets": [
+        ["css=.active", "css:finder"],
+        ["xpath=//div[@onclick=\"scrollToDiv('gfg-nuj-content-div')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='gfg-nuj-heading-menu']/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99493eba-df30-4457-b7d1-cb6206e962bc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,204.8000030517578)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c265588-4082-4bb0-a594-27d3437e40be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single-chapter-hidden-div-0 > .gfg-nuj-single-track-div:nth-child(1) > .gfg-nuj-single-track-title",
+      "targets": [
+        ["css=.single-chapter-hidden-div-0 > .gfg-nuj-single-track-div:nth-child(1) > .gfg-nuj-single-track-title", "css:finder"],
+        ["xpath=//div[@id='gfg-nuj-chapters-content-div']/div/div[3]/a/p", "xpath:idRelative"],
+        ["xpath=//a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'What is DSA | DSA Full Form')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60485ecb-7c41-4904-810a-b182d9684fea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,208.8000030517578)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a8efcc1-e488-4968-bad1-9e36c7f46f2b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=DSA in C++",
+      "targets": [
+        ["linkText=DSA in C++", "linkText"],
+        ["css=.article_bottom_text li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'DSA in C++')]", "xpath:link"],
+        ["xpath=//article[@id='post-1027104']/div[4]/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/courses/dsa-self-paced?utm_source=geeksforgeeks&utm_medium=article_bottom_text&utm_campaign=courses')]", "xpath:href"],
+        ["xpath=//div[4]/div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'DSA in C++')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win391",
+      "windowTimeout": 2000
+    }, {
+      "id": "b764b6c8-3bd0-402f-a7cb-46d7141cd4f8",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f8e9e7a-4724-4a99-8cf1-a35eeea217ee",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win391}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4386bd0f-d566-4746-9cb1-de60deffc71d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0f6a38c-aaf3-4efe-8c13-f22f28363a0f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "848a479e-20b3-4d7f-87e7-98418b60dc1e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Array",
+      "targets": [
+        ["linkText=Array", "linkText"],
+        ["css=#hslider > li:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Array')])[5]", "xpath:link"],
+        ["xpath=//ul[@id='hslider']/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/complete-guide-to-arrays-data-structure/?ref=shm')]", "xpath:href"],
+        ["xpath=//body/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ed1852c-f01d-4951-b52d-8d051bde8adc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gfg-nuj-heading-menu-tab:nth-child(2) > .gfg-nuj-heading-menu-tab-title",
+      "targets": [
+        ["css=.gfg-nuj-heading-menu-tab:nth-child(2) > .gfg-nuj-heading-menu-tab-title", "css:finder"],
+        ["xpath=//div[@id='gfg-nuj-heading-menu']/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Chapters')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55e57917-b09f-4d27-8318-4bf85d4332eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gfg-nuj-heading-menu-tab:nth-child(3) > .gfg-nuj-heading-menu-tab-title",
+      "targets": [
+        ["css=.gfg-nuj-heading-menu-tab:nth-child(3) > .gfg-nuj-heading-menu-tab-title", "css:finder"],
+        ["xpath=//div[@id='gfg-nuj-heading-menu']/div[3]/p", "xpath:idRelative"],
+        ["xpath=//div[3]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Reviews')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ba09fc6-2b0b-4e06-822d-393ee00685e8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trending Now",
+      "targets": [
+        ["linkText=Trending Now", "linkText"],
+        ["css=#hslider > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Trending Now')]", "xpath:link"],
+        ["xpath=//ul[@id='hslider']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/trending/?ref=shm')]", "xpath:href"],
+        ["xpath=//body/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trending Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87f179f1-5ea2-4dad-be3a-e855ba8d0e3e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Trending Now",
+      "targets": [
+        ["linkText=Trending Now", "linkText"],
+        ["css=#hslider > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Trending Now')]", "xpath:link"],
+        ["xpath=//ul[@id='hslider']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/trending/?ref=shm')]", "xpath:href"],
+        ["xpath=//body/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trending Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af344378-2097-448e-90e9-1111c8efc96f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Trending Now",
+      "targets": [
+        ["linkText=Trending Now", "linkText"],
+        ["css=#hslider > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Trending Now')]", "xpath:link"],
+        ["xpath=//ul[@id='hslider']/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.geeksforgeeks.org/trending/?ref=shm')])[3]", "xpath:href"],
+        ["xpath=//body/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trending Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "427b0a7a-d7d4-4a36-a76a-4597f8d9658d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Foundational Courses",
+      "targets": [
+        ["linkText=Foundational Courses", "linkText"],
+        ["css=#hslider > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Foundational Courses')]", "xpath:link"],
+        ["xpath=//ul[@id='hslider']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/courses/category/programming-languages?courseFeeType=paid&utm_source=geeksforgeeks&utm_medium=sub_header&utm_campaign=courses&ref=shm')]", "xpath:href"],
+        ["xpath=//body/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Foundational Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e23c85df-52a3-4e17-adb8-02899d27437b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gcse-search__btn",
+      "targets": [
+        ["css=.gcse-search__btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='gcse-form']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d0e9995-8fe0-428f-97d8-c7869fcf8dde",
+      "comment": "",
+      "command": "type",
+      "target": "id=gcse-search-input",
+      "targets": [
+        ["id=gcse-search-input", "id"],
+        ["css=#gcse-search-input", "css:finder"],
+        ["xpath=//input[@id='gcse-search-input']", "xpath:attributes"],
+        ["xpath=//form[@id='gcse-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Linux"
+    }, {
+      "id": "62498396-6b5f-40dc-99f4-1eeb09483777",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=gcse-search-input",
+      "targets": [
+        ["id=gcse-search-input", "id"],
+        ["css=#gcse-search-input", "css:finder"],
+        ["xpath=//input[@id='gcse-search-input']", "xpath:attributes"],
+        ["xpath=//form[@id='gcse-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6f4a94b0-8bac-4739-833e-dace8f9f9d32",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=What is Linux Operating System - GeeksforGeeks",
+      "targets": [
+        ["linkText=What is Linux Operating System - GeeksforGeeks", "linkText"],
+        ["css=.card:nth-child(2) a", "css:finder"],
+        ["xpath=//div[@id='modal-dm-content']/div[3]/div/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/introduction-to-linux-operating-system/?ref=header_search')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'What is Linux Operating System - GeeksforGeeks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "166421e6-c22a-40a2-83d4-67f68e5539dc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a6bc6d8-3e76-402f-8e9a-bd02513b28b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LINUX Full Form",
+      "targets": [
+        ["linkText=LINUX Full Form", "linkText"],
+        ["css=.leftBarList:nth-child(1) > .leftbar-dropdown:nth-child(5) li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'LINUX Full Form')])[2]", "xpath:link"],
+        ["xpath=//div[@id='home-page']/div/div/div/div/ul/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.geeksforgeeks.org/linux-full-form/?ref=lbp')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/ul/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e911fa5-7c94-4263-9b5f-5d123797b669",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1074.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5359275e-3323-458c-bae9-cf7d76c7465a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,805.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "009200f0-c3f4-4882-a7f5-042e28212987",
+      "comment": "",
+      "command": "click",
+      "target": "css=.article-pgnavi_next span:nth-child(1)",
+      "targets": [
+        ["css=.article-pgnavi_next span:nth-child(1)", "css:finder"],
+        ["xpath=//article[@id='post-405207']/div[4]/div[6]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f49f670-91ab-436f-8742-3adbea817de6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=How To Change Your YouTube Channel Name",
+      "targets": [
+        ["linkText=How To Change Your YouTube Channel Name", "linkText"],
+        ["css=.tn_news:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'How To Change Your YouTube Channel Name')]", "xpath:link"],
+        ["xpath=//div[@id='rightbar_tn']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/how-to-change-your-youtube-channel-name/')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'How To Change Your YouTube Channel Name')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f3afb339-70f6-418c-8daf-537aa7c691e3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b664d94a-ce31-4f07-a1a8-f1af15a3e809"]
+  }],
+  "urls": ["https://www.geeksforgeeks.org/"],
+  "plugins": []
+}

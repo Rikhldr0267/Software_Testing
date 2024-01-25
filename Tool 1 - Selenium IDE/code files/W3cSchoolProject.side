@@ -1,0 +1,339 @@
+{
+  "id": "403c205b-816f-4f69-a8b7-73a1b76b5af0",
+  "version": "2.0",
+  "name": "w3c",
+  "url": "https://www.w3schools.com",
+  "tests": [{
+    "id": "0e19b0a4-40b4-4e1a-8759-70f41cb1569a",
+    "name": "w3c",
+    "commands": [{
+      "id": "637dfa10-6e48-4ce8-a102-94df5a185586",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a42f8fc-a5aa-4d57-a850-85d68dd52925",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1502x815",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29a6fd39-4249-4b60-878e-ef87111fc955",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=DJANGO",
+      "targets": [
+        ["linkText=DJANGO", "linkText"],
+        ["css=.ga-nav:nth-child(21)", "css:finder"],
+        ["xpath=//a[contains(text(),'DJANGO')]", "xpath:link"],
+        ["xpath=//div[@id='subtopnav']/a[19]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/django/index.php')])[3]", "xpath:href"],
+        ["xpath=//a[19]", "xpath:position"],
+        ["xpath=//a[contains(.,'DJANGO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59699c97-9fd0-4724-93fc-cbe66f0981b8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=NODEJS",
+      "targets": [
+        ["linkText=NODEJS", "linkText"],
+        ["css=.ga-nav:nth-child(24)", "css:finder"],
+        ["xpath=//a[contains(text(),'NODEJS')]", "xpath:link"],
+        ["xpath=//div[@id='subtopnav']/a[22]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/nodejs/default.asp')])[3]", "xpath:href"],
+        ["xpath=//a[22]", "xpath:position"],
+        ["xpath=//a[contains(.,'NODEJS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35e0a59b-f744-4658-81b1-b456dbb4cef2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=NODEJS",
+      "targets": [
+        ["linkText=NODEJS", "linkText"],
+        ["css=.ga-nav:nth-child(24)", "css:finder"],
+        ["xpath=//a[contains(text(),'NODEJS')]", "xpath:link"],
+        ["xpath=//div[@id='subtopnav']/a[22]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/nodejs/default.asp')])[3]", "xpath:href"],
+        ["xpath=//a[22]", "xpath:position"],
+        ["xpath=//a[contains(.,'NODEJS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31a4ab8a-758f-4fd9-9ca5-949358924bb7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=PYTHON",
+      "targets": [
+        ["linkText=PYTHON", "linkText"],
+        ["css=.ga-nav:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'PYTHON')]", "xpath:link"],
+        ["xpath=//div[@id='subtopnav']/a[5]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/python/default.asp')])[3]", "xpath:href"],
+        ["xpath=//body/div[3]/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'PYTHON')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d46b0243-288c-4b01-b15f-2545eeccdb58",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PYTHON",
+      "targets": [
+        ["linkText=PYTHON", "linkText"],
+        ["css=.ga-nav:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'PYTHON')]", "xpath:link"],
+        ["xpath=//div[@id='subtopnav']/a[5]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/python/default.asp')])[3]", "xpath:href"],
+        ["xpath=//body/div[3]/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'PYTHON')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c22a7057-84f8-4542-bcee-18c71dcdbb45",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Python Get Started",
+      "targets": [
+        ["linkText=Python Get Started", "linkText"],
+        ["css=#leftmenuinnerinner > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Get Started')]", "xpath:link"],
+        ["xpath=//div[@id='leftmenuinnerinner']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'python_getstarted.asp')]", "xpath:href"],
+        ["xpath=//body/div[4]/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Get Started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c9ceec6-0559-4b5e-b20a-e59b3ffcd13c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Get Started",
+      "targets": [
+        ["linkText=Python Get Started", "linkText"],
+        ["css=#leftmenuinnerinner > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Get Started')]", "xpath:link"],
+        ["xpath=//div[@id='leftmenuinnerinner']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'python_getstarted.asp')]", "xpath:href"],
+        ["xpath=//body/div[4]/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Get Started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d54ca097-b873-41fe-8cb8-9f25dd4cc12b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Python Get Started",
+      "targets": [
+        ["linkText=Python Get Started", "linkText"],
+        ["css=#leftmenuinnerinner > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Get Started')]", "xpath:link"],
+        ["xpath=//div[@id='leftmenuinnerinner']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'python_getstarted.asp')]", "xpath:href"],
+        ["xpath=//body/div[4]/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Get Started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d585b62-d1cc-4f8c-8ac2-632d7e546d14",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Booleans",
+      "targets": [
+        ["linkText=Python Booleans", "linkText"],
+        ["css=#leftmenuinnerinner > a:nth-child(14)", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Booleans')]", "xpath:link"],
+        ["xpath=//div[@id='leftmenuinnerinner']/a[11]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'python_booleans.asp')]", "xpath:href"],
+        ["xpath=//div/div/a[11]", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Booleans')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fec009e-1025-410c-ae9f-55432c5c641f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Python Sets",
+      "targets": [
+        ["linkText=Python Sets", "linkText"],
+        ["css=#leftmenuinnerinner > a:nth-child(20)", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Sets')]", "xpath:link"],
+        ["xpath=//div[@id='leftmenuinnerinner']/a[15]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'python_sets.asp')]", "xpath:href"],
+        ["xpath=//div/div/a[15]", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Sets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ce57bb1-0784-46a0-8876-98bdef43eeab",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Python Sets",
+      "targets": [
+        ["linkText=Python Sets", "linkText"],
+        ["css=#leftmenuinnerinner > a:nth-child(20)", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Sets')]", "xpath:link"],
+        ["xpath=//div[@id='leftmenuinnerinner']/a[15]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'python_sets.asp')]", "xpath:href"],
+        ["xpath=//div/div/a[15]", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Sets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6032b09-7084-48bd-be6f-1668940f8111",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c390270-277c-48fa-ba36-a92e179c375e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Lambda",
+      "targets": [
+        ["linkText=Python Lambda", "linkText"],
+        ["css=#leftmenuinnerinner > a:nth-child(28)", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Lambda')]", "xpath:link"],
+        ["xpath=//div[@id='leftmenuinnerinner']/a[21]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'python_lambda.asp')]", "xpath:href"],
+        ["xpath=//div/div/a[21]", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Lambda')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "400e8636-0c16-42d5-8037-97f6ccf39591",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try it Yourself »",
+      "targets": [
+        ["linkText=Try it Yourself »", "linkText"],
+        ["css=.w3-example:nth-child(11) > .w3-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Try it Yourself »')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'trypython.asp?filename=demo_lambda')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try it Yourself »')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7606",
+      "windowTimeout": 2000
+    }, {
+      "id": "4993c54a-1a4d-4e6d-9728-1955b9501b68",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Try it Yourself »",
+      "targets": [
+        ["linkText=Try it Yourself »", "linkText"],
+        ["css=.w3-example:nth-child(11) > .w3-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Try it Yourself »')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'trypython.asp?filename=demo_lambda')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try it Yourself »')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56830987-75a5-459c-8b0e-caaa1cc0f0b1",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4591b588-234c-47eb-82ad-5992d436c245",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7606}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7584f0b4-6849-443e-8d7a-be89e8ec2a8c",
+      "comment": "",
+      "command": "click",
+      "target": "id=runbtn",
+      "targets": [
+        ["id=runbtn", "id"],
+        ["css=#runbtn", "css:finder"],
+        ["xpath=//button[@id='runbtn']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Run ❯')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d26c95a-9516-4669-a7fe-2169f7fee041",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfeab223-9503-440d-8450-f5d5c5c81c8c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24a560b8-3ceb-4f36-b34a-404fb0bfe2ac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PHP",
+      "targets": [
+        ["linkText=PHP", "linkText"],
+        ["css=.ga-nav:nth-child(9)", "css:finder"],
+        ["xpath=(//a[contains(text(),'PHP')])[3]", "xpath:link"],
+        ["xpath=//div[@id='subtopnav']/a[7]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/php/default.asp')])[3]", "xpath:href"],
+        ["xpath=//body/div[3]/a[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be6e210a-48aa-48cf-a65b-406f5187b168",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=JAVA",
+      "targets": [
+        ["linkText=JAVA", "linkText"],
+        ["css=.ga-nav:nth-child(8)", "css:finder"],
+        ["xpath=(//a[contains(text(),'JAVA')])[2]", "xpath:link"],
+        ["xpath=//div[@id='subtopnav']/a[6]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/java/default.asp')])[3]", "xpath:href"],
+        ["xpath=//body/div[3]/a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1866fd9-8028-405d-aaee-b4ddd724ee33",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Java Variables",
+      "targets": [
+        ["linkText=Java Variables", "linkText"],
+        ["css=#leftmenuinnerinner > a:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Java Variables')]", "xpath:link"],
+        ["xpath=//div[@id='leftmenuinnerinner']/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'java_variables.asp')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Java Variables')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7659e97c-1f68-406e-8f25-abbd2ac8cb91",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0e19b0a4-40b4-4e1a-8759-70f41cb1569a"]
+  }],
+  "urls": ["https://www.w3schools.com/"],
+  "plugins": []
+}

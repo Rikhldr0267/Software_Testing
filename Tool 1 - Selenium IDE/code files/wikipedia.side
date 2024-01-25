@@ -1,0 +1,190 @@
+{
+  "id": "2f88f79b-1df9-4208-9aaf-c0025173e1a9",
+  "version": "2.0",
+  "name": "wikipedia",
+  "url": "https://www.wikipedia.org",
+  "tests": [{
+    "id": "3c93b15d-386d-4b19-8215-c75f71c00f22",
+    "name": "wikipedia",
+    "commands": [{
+      "id": "b26d0b57-73c3-48b1-90b8-8557351f18b6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55f3a2bc-fd49-4def-adac-7a9f009ea4d2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e55b6673-d587-476c-866d-0f39968b1744",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "software"
+    }, {
+      "id": "8568dc0d-391f-426f-80a0-c7ff414f5ec2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "72e7b104-0b75-42b3-9f3d-95b3731b7a0f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5d97268-4a20-48b9-9db8-298ad85603ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programming tool",
+      "targets": [
+        ["linkText=Programming tool", "linkText"],
+        ["css=.hatnote:nth-child(30) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Programming tool')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Programming_tool')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "638efa4f-cb6f-4a8c-9029-d4960b1ac386",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Build automation",
+      "targets": [
+        ["linkText=Build automation", "linkText"],
+        ["css=ul:nth-child(19) > li:nth-child(3) > a:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Build automation')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Build_automation')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "473b2f01-e608-4a40-969b-5bd75ad541c5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Build automation",
+      "targets": [
+        ["linkText=Build automation", "linkText"],
+        ["css=ul:nth-child(19) > li:nth-child(3) > a:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Build automation')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Build_automation')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c74fbf0a-89b0-4650-855d-e4e7aa98d511",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Binary compatibility",
+      "targets": [
+        ["linkText=Binary compatibility", "linkText"],
+        ["css=ul:nth-child(19) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Binary compatibility')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Binary-code_compatibility')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Binary compatibility')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9bcfba0-107d-43d0-8218-1bfc3c686b3c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bug compatibility",
+      "targets": [
+        ["linkText=Bug compatibility", "linkText"],
+        ["css=ul:nth-child(19) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bug compatibility')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Bug_compatibility')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bug compatibility')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fd55405-1e0a-43fb-bbea-0dd7c129f877",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=AARD code",
+      "targets": [
+        ["linkText=AARD code", "linkText"],
+        ["css=ul:nth-child(19) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'AARD code')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/AARD_code')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'AARD code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7143c3f1-3add-4418-a2c1-92d775db0203",
+      "comment": "",
+      "command": "click",
+      "target": "css=#toc-Discovery .vector-toc-text",
+      "targets": [
+        ["css=#toc-Discovery .vector-toc-text", "css:finder"],
+        ["xpath=//li[@id='toc-Discovery']/a/div", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a398ccb1-74f4-4917-816b-a7f60d68ba16",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,270)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fd59e4a-34e1-4c91-904e-1ae8b81fc004",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Plug compatible",
+      "targets": [
+        ["linkText=Plug compatible", "linkText"],
+        ["css=ul:nth-child(19) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Plug compatible')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Plug_compatible')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Plug compatible')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "34aa529b-a0d1-47fa-a2b6-f5b178b4328b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3c93b15d-386d-4b19-8215-c75f71c00f22"]
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}

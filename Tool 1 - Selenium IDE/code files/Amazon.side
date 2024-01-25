@@ -1,0 +1,243 @@
+{
+  "id": "3c34ad0f-d917-47ca-8bca-34176743491d",
+  "version": "2.0",
+  "name": "amazon",
+  "url": "https://www.amazon.in",
+  "tests": [{
+    "id": "f1082e6b-751e-41ba-a378-256a5047424b",
+    "name": "amazon",
+    "commands": [{
+      "id": "4d943e61-afcc-4dd3-9bf3-794087916581",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a765fe1-384f-4812-8751-e4e730460edf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a09100c-e16f-47da-9dcd-e1ecb5b1fed4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e221d22d-9f70-46dd-aa1c-340bff100ab6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#CardInstancecSF_rFVmEZA1thxg5blm5w .\\_cDEzb_missionQuadrant_1Y7U_:nth-child(2) .\\_cDEzb_missionImage_bHVL4",
+      "targets": [
+        ["css=#CardInstancecSF_rFVmEZA1thxg5blm5w .\\_cDEzb_missionQuadrant_1Y7U_:nth-child(2) .\\_cDEzb_missionImage_bHVL4", "css:finder"],
+        ["xpath=//img[@alt='HP Laptop 14s, 12th Gen Intel Core i3-1215U, 14-inch (35.6 cm), FHD, 8GB DDR4, 512GB SSD, Intel UHD Graphics, Thin & Light, D']", "xpath:img"],
+        ["xpath=//div[@id='CardInstancecSF_rFVmEZA1thxg5blm5w']/div/a[2]/div/div/img", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0651af92-d6be-4f89-bb49-924e21769c40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.a-section:nth-child(1) > .a-color-base .\\_cDEzb_image_2keXX",
+      "targets": [
+        ["css=.a-section:nth-child(1) > .a-color-base .\\_cDEzb_image_2keXX", "css:finder"],
+        ["xpath=(//img[@alt='HP Laptop 14s, 12th Gen Intel Core i3-1215U, 14-inch (35.6 cm), FHD, 8GB DDR4, 512GB SSD, Intel UHD Graphics, Thin & Light, D'])[2]", "xpath:img"],
+        ["xpath=//div[@id='CardInstanceZAesNawzmMcCiLrp3TQiSw']/div[2]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77cf58b8-3a23-492a-95e8-b15c25b6e22c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a-section:nth-child(1) > .a-color-base .\\_cDEzb_image_2keXX",
+      "targets": [
+        ["css=.a-section:nth-child(1) > .a-color-base .\\_cDEzb_image_2keXX", "css:finder"],
+        ["xpath=(//img[@alt='HP Laptop 14s, 12th Gen Intel Core i3-1215U, 14-inch (35.6 cm), FHD, 8GB DDR4, 512GB SSD, Intel UHD Graphics, Thin & Light, D'])[2]", "xpath:img"],
+        ["xpath=//div[@id='CardInstanceZAesNawzmMcCiLrp3TQiSw']/div[2]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a92fc58-a543-4b89-b55a-114d3702571b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=add-to-cart-button",
+      "targets": [
+        ["id=add-to-cart-button", "id"],
+        ["name=submit.add-to-cart", "name"],
+        ["css=#add-to-cart-button", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.add-to-cart']/span/input", "xpath:idRelative"],
+        ["xpath=//div[37]/div/span/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70211a95-c636-4217-98d9-162211e4de62",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-cart-button",
+      "targets": [
+        ["id=add-to-cart-button", "id"],
+        ["name=submit.add-to-cart", "name"],
+        ["css=#add-to-cart-button", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.add-to-cart']/span/input", "xpath:idRelative"],
+        ["xpath=//div[37]/div/span/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae2eaa2f-b6d2-45b1-8f7b-cd90c59ab281",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=add-to-cart-button",
+      "targets": [
+        ["id=add-to-cart-button", "id"],
+        ["name=submit.add-to-cart", "name"],
+        ["css=#add-to-cart-button", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.add-to-cart']/span/input", "xpath:idRelative"],
+        ["xpath=//div[37]/div/span/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b46b2547-8ec3-4192-944a-0711dbfb5dae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=attach_accessory_dp_0-0",
+      "targets": [
+        ["id=attach_accessory_dp_0-0", "id"],
+        ["linkText=HP 330 15.6-inch Laptop Backpack/Trolley Pass-Through; Padded Back Panel; Padded air mesh Panel/Hand wash and air Dry/1 Year Limited Warranty (793A7AA)", "linkText"],
+        ["css=#attach_accessory_dp_0-0", "css:finder"],
+        ["xpath=//a[contains(text(),'HP 330 15.6-inch Laptop Backpack/Trolley Pass-Through; Padded Back Panel; Padded air mesh Panel/Hand wash and air Dry/1 Year Limited Warranty (793A7AA)')]", "xpath:link"],
+        ["xpath=//a[@id='attach_accessory_dp_0-0']", "xpath:attributes"],
+        ["xpath=//div[@id='attach-categorized-accessories']/div/div[2]/div/div/div[2]/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/HP-15-6-inch-Backpack-Pass-Through-793A7AA/dp/B0BYDWD4VL?ref=dp_atch_dss_sdp_ce_0-0')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HP 330 15.6-inch Laptop Backpack/Trolley Pass-Through; Padded Back Panel; Padded air mesh Panel/Hand wash and air Dry/1 Year Limited Warranty (793A7AA)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25f5a1b6-4487-41dd-b96b-f00591331cba",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=attach_accessory_dp_0-0",
+      "targets": [
+        ["id=attach_accessory_dp_0-0", "id"],
+        ["linkText=HP 330 15.6-inch Laptop Backpack/Trolley Pass-Through; Padded Back Panel; Padded air mesh Panel/Hand wash and air Dry/1 Year Limited Warranty (793A7AA)", "linkText"],
+        ["css=#attach_accessory_dp_0-0", "css:finder"],
+        ["xpath=//a[contains(text(),'HP 330 15.6-inch Laptop Backpack/Trolley Pass-Through; Padded Back Panel; Padded air mesh Panel/Hand wash and air Dry/1 Year Limited Warranty (793A7AA)')]", "xpath:link"],
+        ["xpath=//a[@id='attach_accessory_dp_0-0']", "xpath:attributes"],
+        ["xpath=//div[@id='attach-categorized-accessories']/div/div[2]/div/div/div[2]/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/HP-15-6-inch-Backpack-Pass-Through-793A7AA/dp/B0BYDWD4VL?ref=dp_atch_dss_sdp_ce_0-0')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HP 330 15.6-inch Laptop Backpack/Trolley Pass-Through; Padded Back Panel; Padded air mesh Panel/Hand wash and air Dry/1 Year Limited Warranty (793A7AA)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd0e27ed-cd47-4948-a854-f2e571c5a444",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#attach-sidesheet-checkout-button .a-button-input",
+      "targets": [
+        ["css=#attach-sidesheet-checkout-button .a-button-input", "css:finder"],
+        ["xpath=(//input[@type='submit'])[50]", "xpath:attributes"],
+        ["xpath=//span[@id='attach-sidesheet-checkout-button']/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bf14900-67cd-4eb1-9558-2935531b8a0d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "574fd74f-9dd1-4754-8303-e3954b00f1bc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a",
+      "targets": [
+        ["css=a", "css:finder"],
+        ["xpath=//div[@id='ad']/div/div/div/div[2]/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://aax-eu.amazon.in/x/c/RC4_aGRRAk5dDOIvxWFEXTcAAAGM8muLJAMAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBygwxu/http://www.amazon.in/dp/B0B2RBP83P/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=Ju4xuQBkpu')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7c7eb57-d3c6-4ea3-96ca-7e71d2b0bd06",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=a",
+      "targets": [
+        ["css=a", "css:finder"],
+        ["xpath=//div[@id='ad']/div/div/div/div[2]/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://aax-eu.amazon.in/x/c/RC4_aGRRAk5dDOIvxWFEXTcAAAGM8muLJAMAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBygwxu/http://www.amazon.in/dp/B0B2RBP83P/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=Ju4xuQBkpu')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91b3060f-9d45-422c-af5a-50db7ed86302",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "209f2e29-2a9e-48b3-b317-cbf02d93dcf0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bec2d9e3-0e0d-4af6-b2c7-be6fcd17e67e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=nav-link-accountList-nav-line-1",
+      "targets": [
+        ["id=nav-link-accountList-nav-line-1", "id"],
+        ["css=#nav-link-accountList-nav-line-1", "css:finder"],
+        ["xpath=//span[@id='nav-link-accountList-nav-line-1']", "xpath:attributes"],
+        ["xpath=//a[@id='nav-link-accountList']/div/span", "xpath:idRelative"],
+        ["xpath=//a[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hello, Rik')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47b00428-2ccb-49e0-ba9c-96c144c60146",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=nav-link-accountList-nav-line-1",
+      "targets": [
+        ["id=nav-link-accountList-nav-line-1", "id"],
+        ["css=#nav-link-accountList-nav-line-1", "css:finder"],
+        ["xpath=//span[@id='nav-link-accountList-nav-line-1']", "xpath:attributes"],
+        ["xpath=//a[@id='nav-link-accountList']/div/span", "xpath:idRelative"],
+        ["xpath=//a[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hello, Rik')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "52f9d6b3-7498-40cf-8ce2-f6587a42363a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f1082e6b-751e-41ba-a378-256a5047424b"]
+  }],
+  "urls": ["https://www.amazon.in/"],
+  "plugins": []
+}

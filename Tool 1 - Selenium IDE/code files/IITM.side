@@ -1,0 +1,178 @@
+{
+  "id": "db781a50-2bc7-4ff7-acb4-4e10d43eb827",
+  "version": "2.0",
+  "name": "Project02",
+  "url": "https://www.iitm.ac.in",
+  "tests": [{
+    "id": "bcc74f99-ce15-4f9b-9ba3-66fc6a510392",
+    "name": "IITM",
+    "commands": [{
+      "id": "2655f1c1-1c69-42a9-9009-decec200a247",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9c7707e-05fa-4771-9dd3-ff26e4bb9178",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1477x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "067b3fbe-1677-45da-a7a2-bbe494a9fdfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container > .navigation__slideShow .navigation__submenudropdown:nth-child(1)",
+      "targets": [
+        ["css=.container > .navigation__slideShow .navigation__submenudropdown:nth-child(1)", "css:finder"],
+        ["xpath=//nav/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c624479a-4b2c-4986-a75e-2e028df47416",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Computer Science and Engineering",
+      "targets": [
+        ["linkText=Computer Science and Engineering", "linkText"],
+        ["css=.container > .navigation__slideShow .navigation__innersubmenu:nth-child(3) li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Computer Science and Engineering')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/academics/departments/department-of-computer-science-engineering')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Computer Science and Engineering')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f5f3b67-846e-4147-953b-234b03a4c123",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Visit the Department of Computer Science & Engineering",
+      "targets": [
+        ["linkText=Visit the Department of Computer Science & Engineering", "linkText"],
+        ["css=.readmore__btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Visit the Department of Computer Science & Engineering')]", "xpath:link"],
+        ["xpath=//div[@id='block-iitm-content']/div/section[6]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.cse.iitm.ac.in/'])[2]", "xpath:href"],
+        ["xpath=//section[6]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Visit the Department of Computer Science & Engineering')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5493",
+      "windowTimeout": 2000
+    }, {
+      "id": "95f025eb-d605-4f1d-af45-6f4bb0ed0c67",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "811f8ddd-59c5-4169-958e-ef9536507737",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5493}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad612c7a-c21e-45d7-8397-787452d974f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=UG & PG Curriculum",
+      "targets": [
+        ["linkText=UG & PG Curriculum", "linkText"],
+        ["css=div:nth-child(3) li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'UG & PG Curriculum')]", "xpath:link"],
+        ["xpath=//div[@id='homepage']/div/div[2]/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.cse.iitm.ac.in/pages.php?pages=MzU=')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'UG & PG Curriculum')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "112e816b-85f2-43ea-ad62-d9bd93913822",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9eba8d0c-dc24-4deb-9a0a-44ee68b24363",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a18e3b05-761b-4549-8e3e-b47897298168",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Intelligent Systems & Human Computer Interaction",
+      "targets": [
+        ["linkText=Intelligent Systems & Human Computer Interaction", "linkText"],
+        ["css=.contentblock__list .font__fontrols__style:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Intelligent Systems & Human Computer Interaction')]", "xpath:link"],
+        ["xpath=//div[@id='block-iitm-content']/div/section[6]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[27]", "xpath:href"],
+        ["xpath=//section[6]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intelligent Systems & Human Computer Interaction')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9f5731f-1feb-4bc2-ab54-2e441a608a3f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Intelligent Systems & Human Computer Interaction",
+      "targets": [
+        ["linkText=Intelligent Systems & Human Computer Interaction", "linkText"],
+        ["css=.contentblock__list .font__fontrols__style:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Intelligent Systems & Human Computer Interaction')]", "xpath:link"],
+        ["xpath=//div[@id='block-iitm-content']/div/section[6]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[27]", "xpath:href"],
+        ["xpath=//section[6]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intelligent Systems & Human Computer Interaction')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24fc42bb-4174-4e5b-b4b7-7990fc0d5ac7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About IIT Madras",
+      "targets": [
+        ["linkText=About IIT Madras", "linkText"],
+        ["css=.showmenu:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'About IIT Madras')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[25]", "xpath:href"],
+        ["xpath=//li[9]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About IIT Madras')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "093ed627-c3ae-4570-8217-b165141599a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mission",
+      "targets": [
+        ["linkText=Mission", "linkText"],
+        ["css=.showmenu:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mission')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/the-institute/about-iit-madras/mission')]", "xpath:href"],
+        ["xpath=//li[9]/ul/li/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mission')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3dbf33ab-df02-4b61-978f-2dee1c55078b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bcc74f99-ce15-4f9b-9ba3-66fc6a510392"]
+  }],
+  "urls": ["https://www.iitm.ac.in/"],
+  "plugins": []
+}

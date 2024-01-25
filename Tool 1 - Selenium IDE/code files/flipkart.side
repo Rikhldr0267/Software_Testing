@@ -1,0 +1,355 @@
+{
+  "id": "10cf2077-8593-4633-a373-891bdb2c5aea",
+  "version": "2.0",
+  "name": "flipkart",
+  "url": "https://www.flipkart.com",
+  "tests": [{
+    "id": "cfccee99-0efd-4b03-98a9-7707fab17d43",
+    "name": "flipkart",
+    "commands": [{
+      "id": "3899cb5a-7ae2-4d1b-a2e8-e6e3054736f4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9389ef2d-e1bf-46fe-8f5b-8b7426c3938e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27fc147a-8c49-460c-aefd-02f3ad9ef96f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5962c284-0b58-49c4-9228-77e35d83e358",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Mobiles",
+      "targets": [
+        ["linkText=Mobiles", "linkText"],
+        ["css=.\\_1ch8e_:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_96250bc6-acdd-4171-b32e-fc3feb6beb39_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobiles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "781fc794-7158-4d75-a8d0-aaa9df5442b7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Mobiles",
+      "targets": [
+        ["linkText=Mobiles", "linkText"],
+        ["css=.\\_1ch8e_:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_96250bc6-acdd-4171-b32e-fc3feb6beb39_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobiles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15abe855-e9ca-4343-a0de-bc8e96bea3ce",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.Pke_EE", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div/div/header/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a17f86db-2a20-4914-bd6a-350ed1b00334",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9fd09d2-7629-4f30-8ed6-c570cda5d1d0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abfa7071-f152-4dec-a8f0-b5bf73ee26be",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de4f3a10-7903-4e26-b9ff-3b7d8e068b12",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a73dfda7-48d9-46d1-b99a-77b982f2b08a",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.Pke_EE", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div/div/header/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "algorithm book"
+    }, {
+      "id": "dd4e733c-7c21-40f7-95ce-8839938a353a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.Pke_EE", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div/div/header/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d8941b1f-1222-4250-828c-dfd8d06259d1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "350c1466-a8dd-4070-b8dd-d7d4663fa776",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(2) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) > .\\_13oc-S > div:nth-child(2) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='Introduction to Algorithms']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[2]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6670",
+      "windowTimeout": 2000
+    }, {
+      "id": "e089ab60-28ad-4e71-8e29-108f70019b8b",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a6ed0e3-b127-4b41-9cad-6ba10802b78d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6670}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99eb8f85-a68b-4342-9b6c-4d5867a9a2d9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca34aac7-df8c-40b5-923d-167912546f00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3v1-ww",
+      "targets": [
+        ["css=.\\_3v1-ww", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d7d2abd-a4a7-40ca-8e82-6e081414551f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47d766bf-e87c-4628-af64-6d3db4ad039f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_167Mu3:nth-child(5) .\\_4921Z:nth-child(2) .\\_24_Dny",
+      "targets": [
+        ["css=.\\_167Mu3:nth-child(5) .\\_4921Z:nth-child(2) .\\_24_Dny", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div/div/div/section[4]/div[2]/div/div[2]/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ea8ce36-1e2f-45e5-84d2-2247b4629e78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_167Mu3:nth-child(6) .\\_4921Z:nth-child(1) .\\_3879cV",
+      "targets": [
+        ["css=.\\_167Mu3:nth-child(6) .\\_4921Z:nth-child(1) .\\_3879cV", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div/div/div/section[5]/div[2]/div/div/div/label/div[2]", "xpath:idRelative"],
+        ["xpath=//section[5]/div[2]/div/div/div/label/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe292291-7e62-4aec-8d64-7af19c48f56c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9cc0dd9-2c20-4b12-9b38-53f22f166657",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(2) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(2) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='Introduction to Algorithms']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[2]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3271",
+      "windowTimeout": 2000
+    }, {
+      "id": "d638d61c-d305-494d-a428-a93adef2274e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3271}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f817197-9026-4383-a26c-347d949b8083",
+      "comment": "",
+      "command": "click",
+      "target": "id=pincodeInputId",
+      "targets": [
+        ["id=pincodeInputId", "id"],
+        ["css=#pincodeInputId", "css:finder"],
+        ["xpath=//input[@id='pincodeInputId']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[4]/div/div/div/div[2]/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8114cd2d-58b4-4708-aa27-023dcaf3b657",
+      "comment": "",
+      "command": "type",
+      "target": "id=pincodeInputId",
+      "targets": [
+        ["id=pincodeInputId", "id"],
+        ["css=#pincodeInputId", "css:finder"],
+        ["xpath=//input[@id='pincodeInputId']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[4]/div/div/div/div[2]/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "723101"
+    }, {
+      "id": "d76494c2-28f8-4ff6-a088-9e369da4c465",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2P_LDn",
+      "targets": [
+        ["css=.\\_2P_LDn", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[4]/div/div/div/div[2]/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Check')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a75f5b7-043a-4eb3-ab39-faf22113d6ef",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5655d2a-3119-4427-a9e1-7e34c975cb92",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de5e6962-4f56-4867-ba81-3ba6f0b37d40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Grocery",
+      "targets": [
+        ["linkText=Grocery", "linkText"],
+        ["css=.\\_2I9KP_:nth-child(10)", "css:finder"],
+        ["xpath=//a[contains(text(),'Grocery')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/grocery-supermart-store?marketplace=GROCERY&otracker=nmenu_Grocery')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Grocery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c17e7e87-4c8c-4563-a887-b4411b02d166",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Grocery",
+      "targets": [
+        ["linkText=Grocery", "linkText"],
+        ["css=.\\_2I9KP_:nth-child(10)", "css:finder"],
+        ["xpath=//a[contains(text(),'Grocery')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/grocery-supermart-store?marketplace=GROCERY&otracker=nmenu_Grocery')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Grocery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5743ea5f-aa34-4a9f-ae72-37b9e8e81d9c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(4) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(4) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='The Man Who Solved the Market']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[4]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1130abe-4f5e-4a6d-8fa4-127d5fb77608",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_1AtVbE:nth-child(2) div:nth-child(4) .\\_396cs4",
+      "targets": [
+        ["css=.\\_1AtVbE:nth-child(2) div:nth-child(4) .\\_396cs4", "css:finder"],
+        ["xpath=//img[@alt='The Man Who Solved the Market']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div[4]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e14a72b8-930a-46c6-952e-3f91944b2331",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cfccee99-0efd-4b03-98a9-7707fab17d43"]
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}

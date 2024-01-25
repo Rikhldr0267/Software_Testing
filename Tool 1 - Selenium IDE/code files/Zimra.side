@@ -1,0 +1,259 @@
+{
+  "id": "1b5d5fd6-7c67-4009-a4dd-63afb936d9a2",
+  "version": "2.0",
+  "name": "zimra",
+  "url": "https://mail.nitrkl.ac.in",
+  "tests": [{
+    "id": "f34145f5-ad26-43a7-8491-af9566a1dc3a",
+    "name": "Zimra",
+    "commands": [{
+      "id": "23a77686-dab4-4621-a5b1-a69be974f27c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67f1015b-4438-4e52-b3f2-477d5bf9aefe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2064x1127",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7154a62-e66a-4f9a-b076-5d2cc4b0d9d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=zlif__CLV-main__-2158__rw",
+      "targets": [
+        ["id=zlif__CLV-main__-2158__rw", "id"],
+        ["css=#zlif__CLV-main__-2158__rw", "css:finder"],
+        ["xpath=//div[@id='zlif__CLV-main__-2158__rw']", "xpath:attributes"],
+        ["xpath=//li[@id='zli__CLV-main__-2158']/div", "xpath:idRelative"],
+        ["xpath=//li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80c1c158-daff-4343-a7f2-ced4087dedeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#zlif__CLV-main__-2157__su > span:nth-child(1)",
+      "targets": [
+        ["css=#zlif__CLV-main__-2157__su > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='zlif__CLV-main__-2157__su']/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Your National Institute of Technology, Rourkela password has been reset')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a084d9a8-39ca-4382-9b7b-11de65389897",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a90ef4a2-4469-4a26-8e86-eab4d7658777",
+      "comment": "",
+      "command": "click",
+      "target": "id=zlif__CLV-main__-2147__r3",
+      "targets": [
+        ["id=zlif__CLV-main__-2147__r3", "id"],
+        ["css=#zlif__CLV-main__-2147__r3", "css:finder"],
+        ["xpath=//div[@id='zlif__CLV-main__-2147__r3']", "xpath:attributes"],
+        ["xpath=//div[@id='zlif__CLV-main__-2147__rw']/div", "xpath:idRelative"],
+        ["xpath=//li[12]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e0f48ab-e67c-4751-b2c8-57affb828394",
+      "comment": "",
+      "command": "click",
+      "target": "id=zlif__CLV-main__-2148__r3",
+      "targets": [
+        ["id=zlif__CLV-main__-2148__r3", "id"],
+        ["css=#zlif__CLV-main__-2148__r3", "css:finder"],
+        ["xpath=//div[@id='zlif__CLV-main__-2148__r3']", "xpath:attributes"],
+        ["xpath=//div[@id='zlif__CLV-main__-2148__rw']/div", "xpath:idRelative"],
+        ["xpath=//li[11]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48b8c9bf-ba04-4288-ae93-405c62a1cc76",
+      "comment": "",
+      "command": "click",
+      "target": "id=zti__main_Mail__5_textCell",
+      "targets": [
+        ["id=zti__main_Mail__5_textCell", "id"],
+        ["css=#zti__main_Mail__5_textCell", "css:finder"],
+        ["xpath=//td[@id='zti__main_Mail__5_textCell']", "xpath:attributes"],
+        ["xpath=//table[@id='zti__main_Mail__5_table']/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/table/tbody/tr/td[3]", "xpath:position"],
+        ["xpath=//td[contains(.,'Sent')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91c44fe2-05f7-4a16-a9ee-33b7350bdb91",
+      "comment": "",
+      "command": "click",
+      "target": "id=zti__main_Mail__6_textCell",
+      "targets": [
+        ["id=zti__main_Mail__6_textCell", "id"],
+        ["css=#zti__main_Mail__6_textCell", "css:finder"],
+        ["xpath=//td[@id='zti__main_Mail__6_textCell']", "xpath:attributes"],
+        ["xpath=//table[@id='zti__main_Mail__6_table']/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/table/tbody/tr/td[3]", "xpath:position"],
+        ["xpath=//td[contains(.,'Drafts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11294e64-64b2-452f-93f9-cb69e20dbadb",
+      "comment": "",
+      "command": "click",
+      "target": "id=zti__main_Mail__4_textCell",
+      "targets": [
+        ["id=zti__main_Mail__4_textCell", "id"],
+        ["css=#zti__main_Mail__4_textCell", "css:finder"],
+        ["xpath=//td[@id='zti__main_Mail__4_textCell']", "xpath:attributes"],
+        ["xpath=//table[@id='zti__main_Mail__4_table']/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/div/table/tbody/tr/td[3]", "xpath:position"],
+        ["xpath=//td[contains(.,'Junk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d723b4d-864a-492d-9eef-aaca966bd176",
+      "comment": "",
+      "command": "click",
+      "target": "id=zti__main_Mail__3_textCell",
+      "targets": [
+        ["id=zti__main_Mail__3_textCell", "id"],
+        ["css=#zti__main_Mail__3_textCell", "css:finder"],
+        ["xpath=//td[@id='zti__main_Mail__3_textCell']", "xpath:attributes"],
+        ["xpath=//table[@id='zti__main_Mail__3_table']/tbody/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/table/tbody/tr/td[3]", "xpath:position"],
+        ["xpath=//td[contains(.,'Trash')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4a84562-352c-4f10-ad9e-aa54fb5eb7ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=zb__App__Contacts_title",
+      "targets": [
+        ["id=zb__App__Contacts_title", "id"],
+        ["css=#zb__App__Contacts_title", "css:finder"],
+        ["xpath=//td[@id='zb__App__Contacts_title']", "xpath:attributes"],
+        ["xpath=//div[@id='zb__App__Contacts']/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//td[2]/div/table/tbody/tr/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1d07efa-5683-4a40-911e-797013b25fea",
+      "comment": "",
+      "command": "click",
+      "target": "id=zb__App__Calendar_title",
+      "targets": [
+        ["id=zb__App__Calendar_title", "id"],
+        ["css=#zb__App__Calendar_title", "css:finder"],
+        ["xpath=//td[@id='zb__App__Calendar_title']", "xpath:attributes"],
+        ["xpath=//div[@id='zb__App__Calendar']/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//td[3]/div/table/tbody/tr/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13695ab2-c309-4fe0-8379-5d331ae187e5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "564b8952-f6e9-4702-9494-db3d26a013e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=zb__App__Tasks_title",
+      "targets": [
+        ["id=zb__App__Tasks_title", "id"],
+        ["css=#zb__App__Tasks_title", "css:finder"],
+        ["xpath=//td[@id='zb__App__Tasks_title']", "xpath:attributes"],
+        ["xpath=//div[@id='zb__App__Tasks']/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//td[4]/div/table/tbody/tr/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75d42acf-77fa-434d-abdc-71c9bf50352a",
+      "comment": "",
+      "command": "click",
+      "target": "id=zb__App__Options_title",
+      "targets": [
+        ["id=zb__App__Options_title", "id"],
+        ["css=#zb__App__Options_title", "css:finder"],
+        ["xpath=//td[@id='zb__App__Options_title']", "xpath:attributes"],
+        ["xpath=//div[@id='zb__App__Options']/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//td[5]/div/table/tbody/tr/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37e34630-3654-45b3-9902-2d7015f98f70",
+      "comment": "",
+      "command": "click",
+      "target": "id=zb__App__Mail_title",
+      "targets": [
+        ["id=zb__App__Mail_title", "id"],
+        ["css=#zb__App__Mail_title", "css:finder"],
+        ["xpath=//td[@id='zb__App__Mail_title']", "xpath:attributes"],
+        ["xpath=//div[@id='zb__App__Mail']/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//td[2]/div/div/table/tbody/tr/td/div/table/tbody/tr/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eefffede-0f19-4c78-8c89-a75ca7f9e342",
+      "comment": "",
+      "command": "click",
+      "target": "css=#zti__main_Mail__2_textCell > span",
+      "targets": [
+        ["css=#zti__main_Mail__2_textCell > span", "css:finder"],
+        ["xpath=//td[@id='zti__main_Mail__2_textCell']/span", "xpath:idRelative"],
+        ["xpath=//td[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Inbox (100)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbd9f35d-3487-48d4-b546-a71df416a182",
+      "comment": "",
+      "command": "click",
+      "target": "id=zlif__CLV-main__-2156__r3",
+      "targets": [
+        ["id=zlif__CLV-main__-2156__r3", "id"],
+        ["css=#zlif__CLV-main__-2156__r3", "css:finder"],
+        ["xpath=//div[@id='zlif__CLV-main__-2156__r3']", "xpath:attributes"],
+        ["xpath=//div[@id='zlif__CLV-main__-2156__rw']/div", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d9caec1-2fcf-4f1c-983d-6353f77640f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=zlif__CLV-main__-2155__rw",
+      "targets": [
+        ["id=zlif__CLV-main__-2155__rw", "id"],
+        ["css=#zlif__CLV-main__-2155__rw", "css:finder"],
+        ["xpath=//div[@id='zlif__CLV-main__-2155__rw']", "xpath:attributes"],
+        ["xpath=//li[@id='zli__CLV-main__-2155']/div", "xpath:idRelative"],
+        ["xpath=//li[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5c101eaf-6fed-4d6b-ad73-992151ce3abc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f34145f5-ad26-43a7-8491-af9566a1dc3a"]
+  }],
+  "urls": ["https://mail.nitrkl.ac.in/"],
+  "plugins": []
+}

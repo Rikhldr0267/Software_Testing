@@ -1,0 +1,205 @@
+{
+  "id": "21022fa4-d94c-4719-8a8d-c07e365787e3",
+  "version": "2.0",
+  "name": "codeforces",
+  "url": "https://codeforces.com",
+  "tests": [{
+    "id": "73cd2abc-0441-426a-a393-f0dc21d24e94",
+    "name": "codeforces2",
+    "commands": [{
+      "id": "af66ca5f-7a3f-4d9a-8097-63037f727e5c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ff5a6c6-2567-42f8-bbf3-99e7ae42a69d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2064x1127",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee15c60c-b92f-45e0-b859-705420dfa5f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(1) > .has-topic-id > .title p",
+      "targets": [
+        ["css=div:nth-child(1) > .has-topic-id > .title p", "css:finder"],
+        ["xpath=//div[@id='pageContent']/div/div/div/a/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Codeforces Single Account Policy: zh0ukangyang is Removed from the Rating')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37a9d76d-f6c7-4ca0-9e55-4f3179dbcdc7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=div:nth-child(1) > .has-topic-id > .title p",
+      "targets": [
+        ["css=div:nth-child(1) > .has-topic-id > .title p", "css:finder"],
+        ["xpath=//div[@id='pageContent']/div/div/div/a/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Codeforces Single Account Policy: zh0ukangyang is Removed from the Rating')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ecc5839-9ffe-49a9-951e-77e0865269e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-list > li:nth-child(4) > a",
+      "targets": [
+        ["css=.menu-list > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contests')]", "xpath:link"],
+        ["xpath=//div[@id='body']/div[3]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contests')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "659118c9-c227-42d1-9fd6-5b2abba9bad8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Jan/13/2024 20:05UTC+5.5",
+      "targets": [
+        ["linkText=Jan/13/2024 20:05UTC+5.5", "linkText"],
+        ["css=.dark:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='pageContent']/div/div/div[6]/table/tbody/tr[2]/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.timeanddate.com/worldclock/fixedtime.html?day=13&month=1&year=2024&hour=17&min=35&sec=0&p1=166')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Jan/13/2024 20:05UTC+5.5')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4252",
+      "windowTimeout": 2000
+    }, {
+      "id": "6276f3d5-8c64-4c9a-b5e7-77d491400f76",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "567668a8-d5d6-4bcf-91d5-85de9646b9c9",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4252}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51d13057-169f-43c8-a81c-051b3f789091",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tad-logo",
+      "targets": [
+        ["css=.tad-logo", "css:finder"],
+        ["xpath=//div[@id='logo']/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "287c42c4-20eb-4088-a1df-6bfa0d9f3491",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tad-logo",
+      "targets": [
+        ["css=.tad-logo", "css:finder"],
+        ["xpath=//div[@id='logo']/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f461a8ed-b841-4385-acf8-78e7cb340a52",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2c38a4b-9959-4b64-9225-9da3b0e04533",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56a35560-50c6-4c4c-938a-ea55f6bf8418",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) a:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) a:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Enter »')])[2]", "xpath:link"],
+        ["xpath=//div[@id='pageContent']/div/div[2]/div/div[6]/table/tbody/tr[3]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contest/1916')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[6]/table/tbody/tr[3]/td/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec45f498-178e-4ea0-a53c-d6acc70b8261",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2023",
+      "targets": [
+        ["linkText=2023", "linkText"],
+        ["css=tr:nth-child(2) div a", "css:finder"],
+        ["xpath=(//a[contains(text(),'2023')])[4]", "xpath:link"],
+        ["xpath=//div[@id='pageContent']/div[2]/div[6]/table/tbody/tr[2]/td[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/contest/1916/problem/A')])[2]", "xpath:href"],
+        ["xpath=//td[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf3a5b25-c475-40c3-808b-c0661973ea09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.second-level-menu-list > li:nth-child(5) > a",
+      "targets": [
+        ["css=.second-level-menu-list > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Status')]", "xpath:link"],
+        ["xpath=//div[@id='pageContent']/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contest/1916/status')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c773e0c8-b7af-4032-bf91-14345d8a6427",
+      "comment": "",
+      "command": "click",
+      "target": "css=.second-level-menu-list > li:nth-child(6) > a",
+      "targets": [
+        ["css=.second-level-menu-list > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hacks')]", "xpath:link"],
+        ["xpath=//div[@id='pageContent']/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contest/1916/hacks')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b3ce9db-d044-4dba-9a07-750b444654c7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.second-level-menu-list > li:nth-child(4) > a",
+      "targets": [
+        ["css=.second-level-menu-list > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Submissions')]", "xpath:link"],
+        ["xpath=//div[@id='pageContent']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contest/1916/my')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a82a14cd-e337-4288-9d71-448a16848888",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://codeforces.com/"],
+  "plugins": []
+}

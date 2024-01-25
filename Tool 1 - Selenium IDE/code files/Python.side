@@ -1,0 +1,221 @@
+{
+  "id": "51228215-dee0-4ff2-a7e5-8e45d3dde7f6",
+  "version": "2.0",
+  "name": "python",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "cb6220c5-32ee-48fb-9bf6-0fd9d33fa3b0",
+    "name": "python",
+    "commands": [{
+      "id": "6587b820-ac0f-4335-bb9e-1b675467c3f7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31c3c071-32a6-43d3-8e61-23038a78128f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90d9c0e5-e0b4-47bb-b068-9a2567255603",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Docs",
+      "targets": [
+        ["linkText=Docs", "linkText"],
+        ["css=.docs-meta > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Docs')]", "xpath:link"],
+        ["xpath=//div[@id='top']/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://docs.python.org')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Docs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f57ff5a-a5c2-495c-819e-8deb4107a59b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tutorial",
+      "targets": [
+        ["linkText=Tutorial", "linkText"],
+        ["css=.contentstable:nth-child(4) td:nth-child(1) > .biglink:nth-child(2) > .biglink", "css:finder"],
+        ["xpath=//a[contains(text(),'Tutorial')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'tutorial/index.html')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tutorial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "957be3d0-59cd-4f4a-b215-be2f62e99a15",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=3.1.3. Lists",
+      "targets": [
+        ["linkText=3.1.3. Lists", "linkText"],
+        ["css=.toctree-l1:nth-child(3) .toctree-l3:nth-child(3) > .reference", "css:finder"],
+        ["xpath=//a[contains(text(),'3.1.3. Lists')]", "xpath:link"],
+        ["xpath=//section[@id='the-python-tutorial']/div/ul/li[3]/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'introduction.html#lists')]", "xpath:href"],
+        ["xpath=//li/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'3.1.3. Lists')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aa7af18-703c-4194-a3e0-5491193b9379",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,8942)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55639c81-358d-4c11-ab9e-8c63a57d0a93",
+      "comment": "",
+      "command": "click",
+      "target": "css=dt:nth-child(1) .std",
+      "targets": [
+        ["css=dt:nth-child(1) .std", "css:finder"],
+        ["xpath=//section[@id='text']/div[23]/dl/dt/a/span", "xpath:idRelative"],
+        ["xpath=//dt/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Text Sequence Type — str')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6306ed59-261f-4be2-9a0c-9bac9aab32dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=dd:nth-child(3) > p:nth-child(1) .std-ref",
+      "targets": [
+        ["css=dd:nth-child(3) > p:nth-child(1) .std-ref", "css:finder"],
+        ["xpath=//section[@id='text-sequence-type-str']/dl/dd/p/a/span", "xpath:idRelative"],
+        ["xpath=//section[8]/dl/dd/p/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e83487a7-8cd1-4c41-85dc-6be072d90020",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Additional Methods on Float",
+      "targets": [
+        ["linkText=Additional Methods on Float", "linkText"],
+        ["css=div:nth-child(1) > ul li:nth-child(4) li:nth-child(3) > .reference", "css:finder"],
+        ["xpath=(//a[contains(text(),'Additional Methods on Float')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#additional-methods-on-float')])[3]", "xpath:href"],
+        ["xpath=//div/div/ul/li/ul/li[4]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30a7ab51-9d49-4b58-9187-dbc1e87e198e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.related:nth-child(4) li:nth-child(6) > a",
+      "targets": [
+        ["css=.related:nth-child(4) li:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Python')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.python.org/')])[3]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21dbaee6-67d7-49fd-8b7f-3a6bb2718138",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Jobs",
+      "targets": [
+        ["linkText=Jobs", "linkText"],
+        ["css=.jobs-meta > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Jobs')]", "xpath:link"],
+        ["xpath=//div[@id='top']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/jobs/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Jobs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6f79473-fe6e-4066-9d94-345b65c4a37b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Submit",
+      "targets": [
+        ["linkText=Submit", "linkText"],
+        ["css=.last:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Submit')]", "xpath:link"],
+        ["xpath=//nav[@id='mainnav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/jobs/create/')]", "xpath:href"],
+        ["xpath=//header/div/nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "304306a7-2e9a-4655-9b09-f3b39f0fe1b7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Submit",
+      "targets": [
+        ["linkText=Submit", "linkText"],
+        ["css=.last:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Submit')]", "xpath:link"],
+        ["xpath=//nav[@id='mainnav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/jobs/create/')]", "xpath:href"],
+        ["xpath=//header/div/nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae003d3c-602b-4056-93a1-d398a512edb4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Integration",
+      "targets": [
+        ["linkText=Integration", "linkText"],
+        ["css=li:nth-child(1) a:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Integration')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/ol/li/span/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/jobs/type/integration/')])[2]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6f52e2a-37df-4e05-b8ef-e406f601cd9e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Django E-Commerce Full Stack",
+      "targets": [
+        ["linkText=Python Django E-Commerce Full Stack", "linkText"],
+        ["css=li:nth-child(1) .listing-company-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Django E-Commerce Full Stack')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/ol/li/h2/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/jobs/7454/')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Django E-Commerce Full Stack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1959e2f8-007a-48f0-9e71-a695e91d0a4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#community > a",
+      "targets": [
+        ["css=#community > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Community')])[2]", "xpath:link"],
+        ["xpath=//li[@id='community']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/community/')])[2]", "xpath:href"],
+        ["xpath=//header/div/nav/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "436feb5c-910f-4264-bd49-0fce82c4dcbb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cb6220c5-32ee-48fb-9bf6-0fd9d33fa3b0"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

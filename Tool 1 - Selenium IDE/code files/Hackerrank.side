@@ -1,0 +1,332 @@
+{
+  "id": "f50f5ed1-1c5c-460e-8fa5-4fc5e917abac",
+  "version": "2.0",
+  "name": "hackerrank",
+  "url": "https://www.hackerrank.com",
+  "tests": [{
+    "id": "268fa144-6041-423d-be33-e6aa9bb7a88e",
+    "name": "hackerrank",
+    "commands": [{
+      "id": "51d1c154-5ec1-409c-a3fb-ee981274f445",
+      "comment": "",
+      "command": "open",
+      "target": "/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dceb3b52-93f3-44cd-b243-982dd71de3b7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29055d04-e488-41d8-83c0-0d2ea21ef94b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#base-card-1-link .ui-text",
+      "targets": [
+        ["css=#base-card-1-link .ui-text", "css:finder"],
+        ["xpath=//a[@id='base-card-1-link']/div/span", "xpath:idRelative"],
+        ["xpath=//a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue Preparation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9278af9-5cc0-442d-8a16-6ce6b446512f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.first-challenge > #contest-challenges-problem .challengecard-title",
+      "targets": [
+        ["css=.first-challenge > #contest-challenges-problem .challengecard-title", "css:finder"],
+        ["xpath=(//div[@id='contest-challenges-problem']/div/header/div/div/h4)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div/header/div/div/h4", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fac1c73-ba06-4d23-b229-4dc6789a9aa8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.first-challenge > #contest-challenges-problem .challengecard-title",
+      "targets": [
+        ["css=.first-challenge > #contest-challenges-problem .challengecard-title", "css:finder"],
+        ["xpath=(//div[@id='contest-challenges-problem']/div/header/div/div/h4)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div/header/div/div/h4", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0c6fa6f-c61b-4cc6-8043-ca257e8715fa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.first-challenge .content--list_body",
+      "targets": [
+        ["css=.first-challenge .content--list_body", "css:finder"],
+        ["xpath=(//div[@id='contest-challenges-problem']/div)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72acca8a-f1e9-4f53-9242-797aacc91767",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.first-challenge .content--list_body",
+      "targets": [
+        ["css=.first-challenge .content--list_body", "css:finder"],
+        ["xpath=(//div[@id='contest-challenges-problem']/div)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49428c85-1647-4775-89d9-c62f036ba4f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-track-click:nth-child(2) .cta-container .ui-btn",
+      "targets": [
+        ["css=.js-track-click:nth-child(2) .cta-container .ui-btn", "css:finder"],
+        ["xpath=(//div[@id='contest-challenges-problem']/div/header/div[2]/div/div/button)[2]", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div/div/header/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f1f2d96-6b9a-43d1-93dd-d7778ba5f267",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.code-editor-section",
+      "targets": [
+        ["css=.code-editor-section", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[3]/div/section/div/div/div/div[2]/div/div[3]/div/section", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3bcf7de-0a9f-407c-a9aa-0c77ca2b2a1c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.code-editor-section",
+      "targets": [
+        ["css=.code-editor-section", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[3]/div/section/div/div/div/div[2]/div/div[3]/div/section", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a50a3e0-ff18-4410-a64e-3ef488910927",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a15fcfc5-5e8a-407b-b9d4-7c0cf2db64ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.community-header-breadcrumb",
+      "targets": [
+        ["css=.community-header-breadcrumb", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/header", "xpath:idRelative"],
+        ["xpath=//header", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f5fe380-106a-4d84-8a5a-1346752ec85d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.community-header-breadcrumb",
+      "targets": [
+        ["css=.community-header-breadcrumb", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/header", "xpath:idRelative"],
+        ["xpath=//header", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9c699ff-45a9-4000-b5a6-1e730c805c61",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.view-line:nth-child(1)",
+      "targets": [
+        ["css=.view-line:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[3]/div/section/div/div/div/div[2]/div/div[3]/div/section/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3dbb44d-a444-4f24-a8fd-4f49d57eb45d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.community-breadcrumb:nth-child(3) > .breadcrumb-item:nth-child(1) .breadcrumb-item-text",
+      "targets": [
+        ["css=.community-breadcrumb:nth-child(3) > .breadcrumb-item:nth-child(1) .breadcrumb-item-text", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[3]/div/section/div/div/div/div/div/ol/li/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/ol/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91879d36-f6ee-460f-a048-deb41f44da8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-link-item:nth-child(4) span",
+      "targets": [
+        ["css=.nav-link-item:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/nav/div/div/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Certify')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "309b2a91-ed19-494f-8c74-da76e6d86f95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.verifiable-role-card:nth-child(2) .role-title",
+      "targets": [
+        ["css=.verifiable-role-card:nth-child(2) .role-title", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[3]/div/div/div/div/div/section/div[2]/a[2]/h3/span", "xpath:idRelative"],
+        ["xpath=//a[2]/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Software Engineer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b39c795-aa6e-4a84-90a4-626d2b64edc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-link-item:nth-child(3) span",
+      "targets": [
+        ["css=.nav-link-item:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/nav/div/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Prepare')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6badd11d-1603-4dff-a5fb-12dacc226916",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.community-header-breadcrumb-items",
+      "targets": [
+        ["css=.community-header-breadcrumb-items", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div/header/div/div/div", "xpath:idRelative"],
+        ["xpath=//header/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94ba9d0d-8aca-44bb-8cba-963eeffd0f8a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.community-header-breadcrumb-items",
+      "targets": [
+        ["css=.community-header-breadcrumb-items", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/header/div/div/div", "xpath:idRelative"],
+        ["xpath=//header/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "722b23d8-bb74-4f83-b4f3-04da42e23c19",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topic-card:nth-child(5) .topic-name",
+      "targets": [
+        ["css=.topic-card:nth-child(5) .topic-name", "css:finder"],
+        ["xpath=//section[@id='topics']/div[2]/div/div/ul/li[5]/a/div/div", "xpath:idRelative"],
+        ["xpath=//li[5]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee4de69b-d025-4d1c-80ce-2d2524f4cb8a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b38be19a-ea32-4b53-b8c4-b7ed3b88b1ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-track-click:nth-child(1) .content--list_header-v2 > .cta-container .ui-btn",
+      "targets": [
+        ["css=.js-track-click:nth-child(1) .content--list_header-v2 > .cta-container .ui-btn", "css:finder"],
+        ["xpath=//div[@id='contest-challenges-problem']/div/header/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//header/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Solved')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a7746ac-d4c4-4dd5-8007-3829f9c6d805",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-track-click:nth-child(1) .content--list_header-v2 > .cta-container .ui-btn",
+      "targets": [
+        ["css=.js-track-click:nth-child(1) .content--list_header-v2 > .cta-container .ui-btn", "css:finder"],
+        ["xpath=//div[@id='contest-challenges-problem']/div/header/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//header/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Solved')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a1a829f-e2bb-43d0-8d36-fb3b6236952d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de6b55dc-2f6d-4759-b9af-1438061d2dc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mtk1:nth-child(4)",
+      "targets": [
+        ["css=.mtk1:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[3]/div/section/div/div/div/div[2]/div/div[3]/div/section/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div/div[4]/div[12]/span/span[4]", "xpath:idRelative"],
+        ["xpath=//div[12]/span/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e602ae8-adfc-423b-8ce5-7f173e5bf3fd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ddcb64a-81f0-4c5d-8260-6e2ccec7896f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8744cda0-bf37-4cd6-a0ea-1a2d7f360802",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1f9d2b7-703d-45e3-a0aa-80c7bb75d1d0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1ea7956-8b41-4aa2-a8e2-69b65f7ead0c",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.view-line:nth-child(14)",
+      "targets": [
+        ["css=.view-line:nth-child(14)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[3]/div/section/div/div/div/div[2]/div/div[3]/div/section/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div/div[4]/div[14]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[14]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "11ee81a5-a520-4ba9-9d09-68bbb76cd8be",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["268fa144-6041-423d-be33-e6aa9bb7a88e"]
+  }],
+  "urls": ["https://www.hackerrank.com/"],
+  "plugins": []
+}

@@ -1,0 +1,162 @@
+{
+  "id": "fd7feb91-a600-44e5-8fc5-ed1b14b0e74c",
+  "version": "2.0",
+  "name": "Project06",
+  "url": "https://www.jio.com",
+  "tests": [{
+    "id": "33fb7733-16a9-4902-a1e3-4c47a498038a",
+    "name": "Jio",
+    "commands": [{
+      "id": "69ee43a0-b1b6-4df3-a3f9-5b7a7527bc81",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6c07ab3-dc24-4079-924b-0468978e32d0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1477x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "841cc33d-5716-4aa7-a37d-28f00ab654b6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=AirFiber",
+      "targets": [
+        ["linkText=AirFiber", "linkText"],
+        ["css=.is-text:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'AirFiber')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"gotoURLGeneric('','no');trackGenericGA('Click','AirFiber','New top header','revamped_jiocom')\"]", "xpath:attributes"],
+        ["xpath=//nav[@id='firstlevel-nav']/ul/li[4]/section/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/jcms/airfiber/')]", "xpath:href"],
+        ["xpath=//li[4]/section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'AirFiber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da90fe2b-b3da-4ff1-aaf8-3ed53ae6a519",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=AirFiber",
+      "targets": [
+        ["linkText=AirFiber", "linkText"],
+        ["css=.is-text:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'AirFiber')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"gotoURLGeneric('','no');trackGenericGA('Click','AirFiber','New top header','revamped_jiocom')\"]", "xpath:attributes"],
+        ["xpath=//nav[@id='firstlevel-nav']/ul/li[4]/section/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/jcms/airfiber/')]", "xpath:href"],
+        ["xpath=//li[4]/section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'AirFiber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e7f341-33fb-4a1a-b3d2-72fdcb937e32",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,342.28570556640625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0225508d-92a5-4762-938e-5d1970353543",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00bc9df5-9fd1-4951-9287-d433396d5946",
+      "comment": "",
+      "command": "click",
+      "target": "css=.j-container:nth-child(3) > .j-button > div",
+      "targets": [
+        ["css=.j-container:nth-child(3) > .j-button > div", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/main/div/section/div/section[5]/section/section/section/button/div", "xpath:idRelative"],
+        ["xpath=//section/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b204c2ba-7c33-44d6-b3dc-cf6d1a9f758a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group:nth-child(3) .j-link:nth-child(4) .j-text",
+      "targets": [
+        ["css=.group:nth-child(3) .j-link:nth-child(4) .j-text", "css:finder"],
+        ["xpath=//div[@id='sites-footer-container']/div/section/div/div/section/div/div[3]/div[2]/a[4]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/a[4]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9e94b8f-2c61-473a-94b7-49fe71bb073e",
+      "comment": "",
+      "command": "click",
+      "target": "id=AoutUsSelect",
+      "targets": [
+        ["id=AoutUsSelect", "id"],
+        ["linkText=About Us", "linkText"],
+        ["css=#AoutUsSelect", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//a[@id='AoutUsSelect']", "xpath:attributes"],
+        ["xpath=//div[@id='main-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'AboutUs.aspx')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b179f80-a628-4cf7-9173-3f987337ea63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-6 li:nth-child(2)",
+      "targets": [
+        ["css=.col-sm-6 li:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='Form1']/footer/div/div/div/div/div/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Galleria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38532559-f2a3-4f6d-8c30-aca563440cb4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Galleria",
+      "targets": [
+        ["linkText=Galleria", "linkText"],
+        ["css=.col-sm-6 li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Galleria')]", "xpath:link"],
+        ["xpath=//form[@id='Form1']/footer/div/div/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'index.aspx#galleria-section')]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Galleria')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0e6f966-8250-448a-bd94-802a8d41c274",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Awards",
+      "targets": [
+        ["linkText=Awards", "linkText"],
+        ["css=.col-sm-5 > .footernav > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Awards')]", "xpath:link"],
+        ["xpath=//form[@id='Form1']/footer/div/div/div/div/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'index.aspx#awards-section')]", "xpath:href"],
+        ["xpath=//div/div/div/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Awards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "88ea864f-a70f-4b34-bcd3-33536967001e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["33fb7733-16a9-4902-a1e3-4c47a498038a"]
+  }],
+  "urls": ["https://www.jio.com/"],
+  "plugins": []
+}

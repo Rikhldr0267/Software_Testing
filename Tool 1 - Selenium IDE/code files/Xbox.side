@@ -1,0 +1,140 @@
+{
+  "id": "f27ee312-4c22-4bc6-ba56-40dbb44a2f4d",
+  "version": "2.0",
+  "name": "Project08",
+  "url": "https://www.xbox.com",
+  "tests": [{
+    "id": "3594a532-93c5-4a40-a442-de6f7ff10cd7",
+    "name": "Xbox",
+    "commands": [{
+      "id": "d5ac8684-3a2a-48a1-b22b-462fd30e9f20",
+      "comment": "",
+      "command": "open",
+      "target": "/en-IN/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32b028d8-1c7d-4e89-9e1b-7e9602459f55",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1464x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e93f133-bbd8-4eea-91c0-0dcd78d346c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) .c-paragraph",
+      "targets": [
+        ["css=a:nth-child(3) .c-paragraph", "css:finder"],
+        ["xpath=//div[@id='ContentBlockList_3']/div/div/a[3]/div/p", "xpath:idRelative"],
+        ["xpath=//a[3]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'CONSOLES')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0d194b0-909e-4af4-ac4a-b91ecf500e8c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de7a0276-eb54-414f-9e64-7f150b5504e8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1831.4285888671875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bead5941-2789-4e0e-805d-d670348ec742",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2997.142822265625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c681eadb-e84d-464d-8e06-e311b4e105da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-call-to-action:nth-child(4) > span",
+      "targets": [
+        ["css=.c-call-to-action:nth-child(4) > span", "css:finder"],
+        ["xpath=//div[@id='ContentBlockList_5']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'EXPLORE GAME PASS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a70ab9b9-b767-4188-9b97-709779427edc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a74ed147-e29f-4220-b87a-70f9f5ce5a46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=FAQ",
+      "targets": [
+        ["linkText=FAQ", "linkText"],
+        ["css=ul:nth-child(3) > li:nth-child(3) > .c-hyperlink", "css:finder"],
+        ["xpath=(//a[contains(text(),'FAQ')])[2]", "xpath:link"],
+        ["xpath=//div[@id='TopContentBlockList_3']/div/div/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#faq')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14e5d0b4-679f-44f6-9d90-4b93a8285a86",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Xbox Support",
+      "targets": [
+        ["linkText=Xbox Support", "linkText"],
+        ["css=.c-uhff-nav-group:nth-child(2) li:nth-child(1) > .c-uhff-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Xbox Support')]", "xpath:link"],
+        ["xpath=//footer[@id='uhf-footer']/nav/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://support.xbox.com?xr=footnav')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xbox Support')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20bc803d-47dd-4c04-ad55-1e5da263c084",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9ca005e-9992-49b8-bd0c-a360e62d1bfa",
+      "comment": "",
+      "command": "click",
+      "target": "id=service-status",
+      "targets": [
+        ["id=service-status", "id"],
+        ["linkText=Xbox status", "linkText"],
+        ["css=#service-status", "css:finder"],
+        ["xpath=//a[contains(text(),'Xbox status')]", "xpath:link"],
+        ["xpath=//a[@id='service-status']", "xpath:attributes"],
+        ["xpath=//nav[@id='uhf-g-nav']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-IN/xbox-live-status')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Xbox status')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c94c7237-d9e0-40e2-8ef5-61e5a4fd32b2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3594a532-93c5-4a40-a442-de6f7ff10cd7"]
+  }],
+  "urls": ["https://www.xbox.com/"],
+  "plugins": []
+}
